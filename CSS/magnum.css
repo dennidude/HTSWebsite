@@ -2,7 +2,7 @@
  *Generell tagar för hela dokumentet
  **************************************/
 body{
-	font-family: "Tahoma", "DejaVu Sans","Sans-Serif";
+	font-family: "Century Gothic", "DejaVu Sans","Sans-Serif";
 	font-size: 10pt;
 }
 
@@ -18,18 +18,20 @@ h1 {
 /* background */
 body{
 	/*background-color: #0099CC;*/
+	/*background-image:url('bakgrund-orange_v2.png');*/
 	background-image:url('H4.jpg');
 	/*background-image:url('gamegrumps.png');*/
 }
 
 /* column */
 #content, #left, #right, #frame, #footer {
-	background: #66CCFF;
+	/*background: #66CCFF;*/
+	background: #FFA500
 	}
 	
 /* Front */
 #center, #center-right {
-	background: #FFF;
+	background: #F1F1F1;
 	}
 
 /* Spotlight */	
@@ -51,7 +53,7 @@ body{
 }
 
 #banner-center{
-	width: 495px;
+	width: 495px;	
 }
 
 #banner-left{
@@ -71,10 +73,12 @@ body{
 
 #content{
 	width: 995px;
-	height: 2000px;
+	/*height: 1740px;*/
+	height: 1250px;
 	margin: 0;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 7px;
 }
 
 #left{
@@ -87,8 +91,9 @@ body{
 }
 
 #center{
-	width: 464px;
-	height:1600px;
+	width: 715px;
+	/*height:1600px;*/
+	height: 1100px;
 	float: left;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -96,7 +101,7 @@ body{
 	padding-left: 15px;
 }
 
-#right{
+/* #right{
 	width: 240px;
 	float: left;
 	padding-top: 0px;
@@ -104,7 +109,7 @@ body{
 	padding-right: 5px;
 	padding-left: 5px;
 }
-
+*/
 /* Alternatives to center and right */
 
 #center-right{
