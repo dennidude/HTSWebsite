@@ -36,7 +36,7 @@ include '../File/connect.php';
 						
 						<div class="meny">
 <ul>
-<li><a href="sida1.php">Hem</a></li>
+<li><a href="index.html">Hem</a></li>
 <br />
 <li><a href="sida2.php">Bildgalleri</a></li>
 <br />
@@ -56,6 +56,14 @@ include '../File/connect.php';
 				<h1 class="dokument-item-header"> Information - Hellflames</h1>
 				<p class="info">Hellflames är ett spel som jag gör som projektarbete där jag gör koden och grafiken själv. Jag använder Python som programmerings språk samt MSpaint och Photoshop för att göra grafiken. Jag fick inspiration främst från ett spel som jag spelade när jag var yngre som heter Hellfire och jag spelade det på mitt Sega Multi Mega.<br /><br /> På denna sidan hade jag tänkt lägga upp bilder och eventuellt information om spelet och man ska kunna registrera sig och kommentera på respektive bilder och information.</p>
 </div>
+
+		<!-- Ett formulär -->
+		<form action="insert.php" method="post">
+		Text: <input type="text" name="myText">
+		Tal: <input type="number" name="myNumber">
+		<input type="submit">
+		</form>
+
 </div>
            <!-- <div id="right">
 					<div class="dokument-item">
