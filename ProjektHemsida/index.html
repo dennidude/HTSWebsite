@@ -15,7 +15,8 @@ include '../File/connect.php';
 		<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
     <head>
         <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
-        <link rel="stylesheet" title="magnum" type="text/css" href="CSS/magnum.css" />
+        <!--<link rel="stylesheet" title="magnum" type="text/css" href="CSS/magnum.css" /> -->
+		<link rel="stylesheet" title="denniscss" type="text/css" href="CSS/dennis.css" />
 		<link rel="alternate stylesheet" title="none" type="text/css" href="CSS/empty.css.css" />	  
         <title>Välkommen till Hellflames sida!</title>
 		
@@ -24,28 +25,47 @@ include '../File/connect.php';
         <div id="content">
             <div id="top">
                <div id="logo-left" ></div>
+			   <br />
+			   <!--&nbsp; &nbsp; &nbsp; <img src="images\playership1_idle1_edited.png" alt="Logga"> 
+			   <br />
+			   &nbsp; &nbsp;<img src="images\playershipevil_edited.png" alt="Logga">
+				-->
+				<img src="images\top-logo-big.png" alt="Logga">
                <div id="logo-center" ></div>
                <div id="logo-right" ></div>
             </div>
             <div id="left">
 					<div class="dokument-item">
-						<h1 class="dokument-item-header"> Meny</h1>
+						<h1 class="dokument-item-header">- - - Meny - - -</h1>
 						<!--<p class="dokument-item-description">Startsida</p>-->
 											
 						
 						
 						<div class="meny">
 <ul>
-<li><a href="index.html">Hem</a></li>
+<li><a href="index.html">Hem &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
 <br />
 <li><a href="sida2.php">Bildgalleri</a></li>
 <br />
-<li><a href="sida3.php">Meny 3</a></li>
+<!--<li><a href="sida3.php">Meny 3 &nbsp; &nbsp;</a></li>
 <br />
-<li><a href="sida4.php">Meny 4</a></li>
+<li><a href="sida4.php">Meny 4 &nbsp; &nbsp;</a></li>
 <br />
-<li><a href="sida5.php">Meny 5</a></li>
+<li><a href="sida5.php">Meny 5 &nbsp; &nbsp;</a></li> -->
 </ul>
+<div id=login> 
+<!-- Ett formulär -->
+		<form action="insert.php" method="post">
+		Användarnamn: <input type="text" name="myText">
+		<br />
+		<br />
+		Lösenord:<input type="number" name="myNumber">
+		<br />
+		<br />
+		<input type="submit">
+		</form>
+		</div>
+
 </div>
 						
 						
@@ -58,11 +78,12 @@ include '../File/connect.php';
 </div>
 
 		<!-- Ett formulär -->
-		<form action="insert.php" method="post">
+		<!--<form action="insert.php" method="post">
 		Text: <input type="text" name="myText">
 		Tal: <input type="number" name="myNumber">
 		<input type="submit">
 		</form>
+		-->
 
 </div>
            <!-- <div id="right">
@@ -72,8 +93,9 @@ include '../File/connect.php';
 					</div>
             </div> -->
 
+			
 			<div id="footer">
-				<p> &copy; 2013 Dennis Sarafiloski
+				<p> &nbsp; &copy; 2013 Dennis Sarafiloski
 				</p>
 			</div>
         </div>
