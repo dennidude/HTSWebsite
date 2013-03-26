@@ -1,12 +1,12 @@
-ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 		
 		
 		
-		<!-- Detta ska stÃ¥ i bÃ¶rjan av html sidan -->
+		<!-- Detta ska stå i början av html sidan -->
 <?php
-include 'connect.php';
+include '../File/connect.php';
 ?>
 		
 		
@@ -18,7 +18,7 @@ include 'connect.php';
         <!--<link rel="stylesheet" title="magnum" type="text/css" href="CSS/magnum.css" /> -->
 		<link rel="stylesheet" title="denniscss" type="text/css" href="CSS/dennis.css" />
 		<link rel="alternate stylesheet" title="none" type="text/css" href="CSS/empty.css.css" />	  
-        <title>VÃ¤lkommen till Hellflames sida!</title>
+        <title>Välkommen till Hellflames sida!</title>
 		
     </head>
     <body>
@@ -53,13 +53,16 @@ include 'connect.php';
 <br />
 <li><a href="sida5.php">Meny 5 &nbsp; &nbsp;</a></li> -->
 </ul>
+<!--
 <div id=login> 
-<!-- Ett formulÃ¤r -->
+-->
+<!-- Ett formulär -->
+	<!--
 		<form action="insert.php" method="post">
-		AnvÃ¤ndarnamn: <input type="text" name="myText">
+		Användarnamn: <input type="text" name="myText">
 		<br />
 		<br />
-		LÃ¶senord:<input type="number" name="myNumber">
+		Lösenord:<input type="number" name="myNumber">
 		<br />
 		<br />
 		<input type="submit">
@@ -67,17 +70,17 @@ include 'connect.php';
 		</div>
 
 </div>
-						
+		-->				
 						
 					</div>
             </div>
             <div id="center">
                 <div id="info">
 				<h1 class="dokument-item-header"> Information - Hellflames</h1>
-				<p class="info">Hellflames Ã¤r ett spel som jag gÃ¶r som projektarbete dÃ¤r jag gÃ¶r koden och grafiken sjÃ¤lv. Jag anvÃ¤nder Python som programmerings sprÃ¥k samt MSpaint och Photoshop fÃ¶r att gÃ¶ra grafiken. Jag fick inspiration frÃ¤mst frÃ¥n ett spel som jag spelade nÃ¤r jag var yngre som heter Hellfire och jag spelade det pÃ¥ mitt Sega Multi Mega.<br /><br /> PÃ¥ denna sidan hade jag tÃ¤nkt lÃ¤gga upp bilder och eventuellt information om spelet och man ska kunna registrera sig och kommentera pÃ¥ respektive bilder och information.</p>
+				<p class="info">Hellflames är ett spel som jag gör som projektarbete där jag gör koden och grafiken själv. Jag använder Python som programmerings språk samt MSpaint och Photoshop för att göra grafiken. Jag fick inspiration främst från ett spel som jag spelade när jag var yngre som heter Hellfire och jag spelade det på mitt Sega Multi Mega.<br /><br /> På denna sidan hade jag tänkt lägga upp bilder och eventuellt information om spelet och man ska kunna registrera sig och kommentera på respektive bilder och information.</p>
 </div>
 
-		<!-- Ett formulÃ¤r -->
+		<!-- Ett formulär -->
 		<!--<form action="insert.php" method="post">
 		Text: <input type="text" name="myText">
 		Tal: <input type="number" name="myNumber">
@@ -88,8 +91,8 @@ include 'connect.php';
 </div>
            <!-- <div id="right">
 					<div class="dokument-item">
-						<h1 class="dokument-item-header"> Titta pÃ¥ mig hÃ¤r borta ocksÃ¥</h1>
-						<p class="dokument-item-description"> HÃ¤r kan du ocksÃ¥ skriva text.</p>
+						<h1 class="dokument-item-header"> Titta på mig här borta också</h1>
+						<p class="dokument-item-description"> Här kan du också skriva text.</p>
 					</div>
             </div> -->
 
